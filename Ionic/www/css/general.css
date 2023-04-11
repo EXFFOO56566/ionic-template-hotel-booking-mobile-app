@@ -1,0 +1,29 @@
+﻿body{
+	font-family:Roboto;
+	color:#414042;
+	font-size:13px;
+}
+.popup{border-radius:3px!important}
+.popup-confirm .popup{background:#fff}
+.popup-confirm .popup-head{
+	text-align:left;
+	border:none
+}
+.popup-confirm .popup-buttons{
+	display:block;
+	padding:0;
+	min-height:35px
+}
+.popup-confirm .popup-buttons .button{
+	display:block;
+	background:transparent;
+	text-align:right;
+	min-height:35px
+}
+.active .modal-backdrop-bg {opacity: 0.5}
+.modal-backdrop-bg {
+    -webkit-transition:opacity 300ms ease-in-out;
+    transition:opacity 300ms ease-in-out;
+    background-color:#000;
+    opacity:0
+}

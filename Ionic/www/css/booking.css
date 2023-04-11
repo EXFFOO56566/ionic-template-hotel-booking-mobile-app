@@ -1,0 +1,137 @@
+﻿.booking-main .item.item-thumbnail-left {
+	font-size:80%;
+	padding:11px 16px 11px 106px
+}
+.booking-main .item.item-thumbnail-left *{
+	line-height:26px;
+	margin:0
+}
+.booking-main .item.item-thumbnail-left .booking-status{
+	position:absolute;
+    right:10px;
+    bottom:20px;
+    color:#fff;
+	background:#0096ff;
+	padding:5px;
+	line-height:13px;
+	border-radius:3px
+}
+.booking-main .item.item-thumbnail-left .booking-status.pending{background:#00a32e}
+.booking-main .item.item-thumbnail-left .booking-status.canceled{
+	background:#f2f2f2;
+	color:#aaa
+}
+
+.booking-detail .button-clear.button-icon{
+	color:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:32px
+}
+.booking-detail .absolute-footer{padding:6px}
+.booking-detail .button-icon.icon-call{
+	position:absolute;
+    width:50px;
+    height:50px;
+    right:10px;
+    bottom:-20px;
+	border-radius:100%;
+	font-size:24px
+}
+.booking-detail .button-icon.ion-ios-arrow-right{
+	position:absolute;
+    right:10px;
+    bottom:-8px;
+}
+.booking-detail .pending-info .row .col *{margin:0}
+
+.modal-select-time{
+	min-height:252px;
+	max-height:252px;
+	top:50%;
+	margin-top:-126px;
+	width:80%;
+	left:10%
+}
+
+.modal-cancel-booking{
+	width:100%;
+	min-height:272px;
+	max-height:272px;
+	top:auto;
+	left:0;
+	bottom:0
+}
+.modal-cancel-booking .item.item-radio{border:none}
+.modal-cancel-booking .item.item-radio .item-content{
+	padding:10px;
+	padding-left:40px
+}
+.modal-cancel-booking .item.item-radio .radio-icon{
+	visibility:visible;
+	padding:5px 14px;
+	right:auto;
+	left:0;
+	font-size:22px
+}
+.modal-cancel-booking .item.item-radio .radio-icon:before{content:""}
+.modal-cancel-booking .item-radio input:checked + .radio-content .radio-icon:before{
+	content:"";
+	color:#00a32e
+}
+.modal-cancel-booking .item-radio input:checked + .radio-content .item-content{background:none}
+
+.modal-payment{
+	width:100%;
+	min-height:150px;
+	max-height:150px;
+	top:auto;
+	left:0;
+	bottom:0
+}
+.modal-payment .list .item .icon:first-child{color:#74a352}
+.modal-payment .list .item .icon:last-child{
+	color:#ee192b;
+	font-size:55px;
+	right:25px
+}
+.modal-payment .list-payment{height:75px}
+.modal-payment .list-payment .col{
+	padding-top:5px;
+	border-right:1px solid #ddd
+}
+.modal-payment .list-payment .col:last-child{border:none}
+.modal-payment .list-payment .icon{
+	font-size:32px;
+	line-height:40px;
+}
+.modal-payment .list-payment .icon.icon-credit{color:#3e50b4}
+.modal-payment .list-payment .icon.icon-debit{color:#16a1ab}
+.modal-payment .list-payment .icon.icon-price-dola{color:#74a352}
+
+.modal-select-bank{
+	width:80%;
+	left:10%;
+	min-height:124px;
+	max-height:124px;
+	top:50%;
+	margin-top:-62px;
+}
+.modal-select-bank .item.item-radio{border:none}
+.modal-select-bank .item.item-radio .item-content{
+	padding:10px;
+	padding-right:40px;
+	background:#eee;
+	text-align:left
+}
+.modal-select-bank .item.item-radio .radio-icon{
+	visibility:visible;
+	padding:5px 14px;
+	font-size:22px
+}
+.modal-select-bank .item.item-radio .radio-icon:before{content:""}
+.modal-select-bank .item-radio input:checked + .radio-content .radio-icon:before{
+	content:"";
+	color:#00a32e
+}

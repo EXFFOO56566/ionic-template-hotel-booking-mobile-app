@@ -1,0 +1,47 @@
+﻿.button-facebook{
+	background:#464fa1;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:115%
+}
+.sign-form{
+	border-radius:6px;
+	overflow:hidden;
+	box-shadow:0px 3px 7px #d2d2d2;
+	-webkit-box-shadow:0px 3px 7px #d2d2d2
+}
+.sign-form .item{
+	border:none;
+	border-bottom:1px solid #ddd;
+	overflow:visible
+}
+.sign-form .item:last-child{border:none}
+.sign-form .sign-areacode{
+	width:60px;
+	line-height:46px;
+	margin-right:10px;
+	padding-right:5px
+}
+.sign-form .icon-error{
+	position:absolute;
+	top:12px;
+	right:6px
+}
+.sign-form .sign-error{
+    position:absolute;
+    bottom:-10px;
+    right:4px;
+    z-index:3
+}
+
+.areacode-main .item{line-height:25px}
+.areacode-main .item img{
+	height:25px;
+	margin-right:10px
+}
+.areacode-main .ion-ios-close{
+	position:absolute;
+    top:10px;
+    right:5px;
+    font-size:24px
+}

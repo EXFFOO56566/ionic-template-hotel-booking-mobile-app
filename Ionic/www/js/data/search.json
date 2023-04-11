@@ -1,0 +1,14 @@
+﻿[
+	{
+		"id":1,
+		"price":"Sold Out",
+		"pricePer":"",
+		"note":""
+	},
+	{
+		"id":2,
+		"price":"$1399",
+		"pricePer":"night",
+		"note":"PREMIUM"
+	}
+]

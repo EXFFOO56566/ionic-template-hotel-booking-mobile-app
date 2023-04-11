@@ -1,0 +1,23 @@
+﻿<ion-modal-view class="search-modal-sort">
+<link href="css/search.css" rel="stylesheet" type="text/css">
+<ion-content class="areacode-main">
+<ion-radio ng-model="sort" ng-value="'ASC'" ng-click="closeModalSearchSort()" ng-init="sort='ASC'">
+	<div class="list">
+		<div class="item item-icon-left">
+			<i class="icon icon-chart-up"></i>
+			<b class="h5">Price</b>
+			<div class="stable">LOW TO HIGH</div>
+		</div>
+	</div>
+</ion-radio>
+<ion-radio ng-model="sort" ng-value="'DESC'" ng-click="closeModalSearchSort()">
+	<div class="list">
+		<div class="item item-icon-left">
+			<i class="icon icon-chart-down"></i>
+			<b class="h5">Price</b>
+			<div class="stable">HIGH TO LOW</div>
+		</div>
+	</div>
+</ion-radio>
+</ion-content>
+</ion-modal-view>

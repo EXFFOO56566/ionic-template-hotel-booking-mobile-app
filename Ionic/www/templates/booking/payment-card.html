@@ -1,0 +1,45 @@
+﻿<ion-view>
+<link href="css/payment.css" rel="stylesheet" type="text/css">
+<ion-nav-bar class="bar-light">
+	<ion-nav-buttons side="left">
+	<button class="button button-icon button-clear ion-android-arrow-back" ng-click="goBack()"></button>
+	</ion-nav-buttons>
+</ion-nav-bar>
+<ion-content scroll="false" class="stable-bg stable payment-form-main">
+	<div class="text-center padding-20 light-bg">
+		<h2>$ 1899.00</h2>
+		<span>Transaction ID : yq9v92ozneggg6dr0trvkdqp</span>
+	</div>
+	<div class="padding-20">
+	<div>Enter card Details</div>
+	<div class="list list-inset no-margin insert-card no-bg">
+		<div class="item item-input no-border">
+			<input type="text" placeholder="Card number">
+			<i class="icon icon-table stable"></i>
+		</div>
+		<div class="item item-input no-border">
+			<input type="text" placeholder="Name on Card">
+			<i class="icon ion-person stable"></i>
+		</div>
+		<div class="row row-no-padding">
+			<div class="item item-input col-66 no-border border-right-important">
+				<div class="width-100 padding-right payment-expiry">
+					<span class="dark">Expiry</span>
+					<select class="float-right no-border"><option>YY</option></select>
+					<select class="float-right no-border"><option>MM</option></select>
+				</div>
+				<i class="icon icon-calendar stable"></i>
+			</div>
+			<div class="item item-input col-33 no-border">
+				<input type="text" placeholder="CVV" style="padding-right:5px">
+				<i class="icon ion-ios-locked stable"></i>
+			</div>
+		</div>
+	</div>
+	<button class="button button-full no-margin button-stable" ui-sref="app.bookingPaymentSuccess">
+		<h4 class="light">Pay Now</h4>
+	</button>
+	<div class="text-center padding-top">Or, Go Back to <u>www.website.com</u></div>
+	</div>
+</ion-content>
+</ion-view>

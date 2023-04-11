@@ -1,0 +1,113 @@
+﻿.home-main{background-image:url(img/home-bg.jpg)}
+.home-main .button-icon{
+	font-size:32px;
+	color:#fff
+}
+.home-main .list.card{
+	margin:10px;
+	overflow:visible
+}
+.home-main .list.card .item i.icon:not(.dark){
+	margin-right:5px;
+	color:#ee5e44;
+	font-size:16px
+}
+.home-main .list.card .item i.icon.icon-king{font-size:25px}
+.popup-kind .popup{background:#f8f8f8}
+.popup-kind .popup-head{
+	border:none;
+	text-align:left
+}
+.popup-kind .popup-body .item-checkbox{
+	padding:8px 0;
+	border:none;
+	background:transparent;
+	font-size:14px
+}
+.popup-kind .popup-body .item-checkbox .checkbox{
+	left:auto;
+	padding:11px 7px
+}
+.popup-kind .popup-body .item-checkbox .checkbox-icon{
+	float:right;
+	width:20px;
+	height:20px
+}
+.popup-kind .popup-body .item-checkbox .checkbox-icon:before{
+	background:#f9fafa;
+	border-color:#eee;
+	border-radius:5px
+}
+.popup-kind .popup-body .checkbox input:checked + .checkbox-icon:after{
+	border-color:#2f975e;
+	border-width:2px;
+	top:28%;
+    left:23%;
+	width:11px;
+	height:6px
+}
+.popup-kind .popup-buttons{
+	min-height:35px;
+	padding:0
+}
+.popup-kind .popup-buttons .button{
+	min-height:35px;
+	margin:0
+}
+.home-main .list.card .item-body{
+	overflow:visible;
+	font-size:13px
+}
+.option-room .col-40{
+	background:#fafafa;
+	box-shadow:-1px 1px 1px #cecece;
+	line-height:30px;
+	color:#000
+}
+.home-main .list.card .option-room .col-20 i.icon{
+	font-size:30px;
+	line-height:30px;
+	margin-left:5px
+}
+.home-main .list.card .option-room .col-20 i.icon.remove{color:#000}
+
+.ionic_datepicker_popup .popup-body{position:relative}
+.ionic_datepicker_popup .popup-body .date_cell{width:20px}
+.ionic_datepicker_popup .popup-title{font-size:17px}
+.ionic_datepicker_popup .popup-buttons{
+	position:absolute;
+	top:10px;
+	right:0
+}
+.ionic_datepicker_popup .popup-buttons .button{font-size:32px}
+.ionic_datepicker_popup .popup-body .selected_day{
+	font-size:40px;
+	line-height:40px;
+	margin-right:5px;
+}
+.ionic_datepicker_popup .popup-body .selected_date_year{
+	display:inline-block;
+	width:50px;
+	font-size:14px;
+	line-height:20px;
+	text-transform:uppercase
+}
+.ionic_datepicker_popup .popup-body .date_col{font-weight:bold}
+
+.option-room .option-traveller-room{
+	position:absolute;
+	top:0;
+	left:3px;
+	width:165px;
+	background:#eee;
+	border-radius:5px;
+	box-shadow:0px 0px 8px #666;
+	-webkit-box-shadow:0px 0px 8px #666;
+	z-index:1
+}
+.option-room .option-traveller-room .item{
+    background:transparent;
+    line-height:16px;
+    padding:10px;
+	border:none
+}

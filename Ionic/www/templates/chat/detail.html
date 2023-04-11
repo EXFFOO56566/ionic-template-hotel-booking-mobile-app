@@ -1,0 +1,56 @@
+﻿<ion-view view-title="Technical Assistance">
+<link href="css/chat.css" rel="stylesheet">
+<ion-nav-bar class="bar-assertive">
+	<ion-nav-buttons side="left">
+	<button class="button button-icon button-clear ion-android-arrow-back" ui-sref="app.chat"></button>
+	</ion-nav-buttons>
+</ion-nav-bar>
+<ion-content style="background:#eee">
+<div class="row row-bottom height-100">
+<div class="chat-detail-main width-100">
+	<div class="row row-no-padding">
+		<div class="col col-10 margin-right"><img src="img/chat/detail/avatar.png"></div>
+		<div class="col col-50 chat-content relative">
+		<i class="icon ion-arrow-down-b chat-from"></i>
+			<p>Support</p>
+			<span>For all App related help.</span>
+		</div>
+	</div>
+	<div class="row row-no-padding row-reverse">
+		<div class="col col-50 chat-content relative">
+		<i class="icon ion-arrow-down-b chat-from"></i>
+			<span>Abc</span>
+			<p>11:42 AM</p>
+			<i class="icon ion-ios-checkmark-empty chat-viewed"></i>
+		</div>
+	</div>
+	<div class="row row-no-padding">
+		<div class="col col-10 margin-right"><img src="img/chat/detail/avatar.png"></div>
+		<div class="col col-50 chat-content relative">
+		<i class="icon ion-arrow-down-b chat-from"></i>
+			<p>Support</p>
+			<span>For all App related help.</span>
+			<p>11:43 AM</p>
+		</div>
+	</div>
+	<div class="row row-no-padding row-reverse">
+		<div class="col col-50 chat-content relative">
+		<i class="icon ion-arrow-down-b chat-from"></i>
+			<span>Picture message</span>
+			<img src="img/chat/detail/picture-message.jpg">
+			<p>11:42 AM <i class="icon icon-upload"></i></p>
+		</div>
+	</div>
+</div>
+</div>
+</ion-content>
+<ion-footer-bar>
+	<div class="list width-100">
+		<div class="item item-input no-padding no-border no-margin height-100">
+		<button class="button button-icon icon-pin" ng-click="showPopupChatPin()"></button>
+		<input type="text" placeholder="Type a message" class="height-100">
+		<button class="button button-icon icon-plane stable"></button>
+		</div>
+	</div>
+</ion-footer-bar>
+</ion-view>

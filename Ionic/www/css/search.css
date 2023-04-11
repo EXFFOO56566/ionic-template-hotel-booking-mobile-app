@@ -1,0 +1,139 @@
+﻿.search-header .title{
+	text-align:left!important;
+	line-height:22px!important
+}
+.search-header .title p{font-size:120%}
+.search-header .title span{font-size:70%}
+.search-main .search-price{
+	position:absolute;
+	bottom:0;
+	right:0
+}
+.search-main .search-price .per{font-size:80%}
+.search-main .search-note{
+	position:absolute;
+	top:7px;
+	right:5px;
+	padding:2px 5px;
+	background:#ff0030;
+	border-radius:50px
+}
+.search-main .search-bg{
+	position:absolute;
+	bottom:6px;
+	width:100%;
+	height:60px;
+	background:rgba(0,0,0,0.4);
+	background:-webkit-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.9));
+	background:-o-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.9));
+	background:-moz-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.9));
+	background:linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.9))
+}
+.search-footer .button{
+	line-height:0;
+	font-size:11px;
+	background:transparent;
+	border:none!important;
+	border-left:1px solid #d7d8d9!important;
+}
+.search-footer .button:before{
+	line-height:29px!important;
+	color:#ee674d
+}
+.search-footer .icon-calendar-2{
+	font-size:20px;
+	color:#ee674d
+}
+
+.search-filter a.tab-item.tab-item-active span{border-bottom:1px solid #fff}
+.search-filter .search-filter-main{
+	background-image:url(img/search-filter-bg.jpg);
+	background-position:top;
+	top:0!important;
+	padding-top:155px;
+	background-color:#eee
+}
+.search-filter .tab-nav.tabs{
+	top:120px!important;
+	background:transparent;
+	color:#fff;
+	border:none;
+	height:32px;
+	line-height:32px
+}
+.search-filter .rz-bubble{display:none}
+.search-filter .rzslider .rz-bar{background:#706f76}
+.search-filter .rzslider .rz-bar.rz-selection{background:#ee5e44}
+.search-filter .rzslider .rz-pointer{
+	width:20px;
+	height:20px;
+	top:-8px;
+	background:#fff;
+	box-shadow:0 0 3px;
+	-webkit-box-shadow:0 0 3px;
+}
+.search-filter .rzslider .rz-pointer:after{display:none}
+.search-filter-number .icon{
+	background:#f2f2f2;
+	padding:5px 10px;
+	border-radius:100%
+}
+.search-filter-number .icon.float-left{color:#fff}
+.search-filter-number .icon.float-right{color:#ee5e44}
+.search-filter-number .col span{line-height:30px}
+.search-filter .search-checkbox{
+	background:transparent;
+	padding:3px;
+	padding-left:45px;
+	border:none
+}
+.search-checkbox.item-checkbox .checkbox{margin-top:-18px}
+.search-checkbox .checkbox-icon{
+	width:20px;
+	height:20px
+}
+.search-checkbox .checkbox-icon:before{
+	background:none;
+	border-radius:3px;
+	border:2px solid #7a7a7a
+}
+.search-checkbox .checkbox-icon:after{
+	top:5px;
+	left:3px;
+	border-width:2px
+}
+.search-checkbox .checkbox input:checked + .checkbox-icon:before{
+	background:#009688;
+	border-color:#009688
+}
+.search-filter-amenities .item-divider{
+	white-space:normal;
+	font-size:90%
+}
+.search-filter-amenities .row + .row{margin:5px 0}
+
+.search-modal-sort{
+	top:auto;
+	bottom:10px;
+	left:5%;
+	width:90%;
+	min-height:100px;
+	max-height:100px;
+	border-radius:5px;
+	overflow:hidden
+}
+.search-modal-sort .radio-content .item-content{padding:0}
+.search-modal-sort .radio-content .item-content .list .item{
+	padding:7px;
+	padding-left:54px;
+	font-size:13px;
+	border:none
+}
+.item-radio input:checked + .radio-content .item-content .list .item .icon{color:#ee674d}
+.search-modal-sort .radio-content .ion-checkmark{
+	font-size:14px;
+	line-height:22px;
+	color:#ee674d
+}
+.search-modal-sort .radio-content .ion-checkmark:before{content:"\f21b"}
+.search-filter-footer .button-reset{background:#d64a31}

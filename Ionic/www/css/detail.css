@@ -1,0 +1,171 @@
+﻿.detail-header{
+	display:block;
+	background:rgba(0,0,0,0.4);
+	background:-webkit-linear-gradient(rgba(151,151,151,1), rgba(255,255,255,0));
+	background:-o-linear-gradient(rgba(151,151,151,1), rgba(255,255,255,0));
+	background:-moz-linear-gradient(rgba(151,151,151,1), rgba(255,255,255,0));
+	background:linear-gradient(rgba(151,151,151,1), rgba(255,255,255,0))
+}
+.detail-main{top:0}
+.detail-slider-box  .slider-pager .slider-pager-page{
+	color:#fff;
+	opacity:1
+}
+.detail-slider-box  .slider-pager .slider-pager-page.active{color:#ee5e44}
+.detail-main .list-service .item-divider{
+	white-space:normal;
+	font-style:italic;
+	font-size:90%;
+	padding-left:43px
+}
+.list-service .list-service-scroll{
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-o-flex;
+}
+.list-service .list-service-scroll .scroll{
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-o-flex;
+}
+.list-service .list-service-scroll .scroll-bar-h{display:none}
+.detail-main .list-service .item-divider .icon{
+	left:-2px;
+	color:#ff0030;
+	font-size:40px
+}
+.detail-main .list-service .item-service{
+	width:55px;
+	font-size:70%;
+	color:#000;
+	line-height:14px
+}
+.detail-main .list-service .item-service div{white-space:normal}
+.detail-main .list-service .item-service .icon{font-size:24px}
+.detail-info .detail-info-guest .col{
+	text-align:center;
+	margin:5px;
+	border-radius:3px;
+	background:#f7f7f7
+}
+.detail-info .detail-info-guest .col.active{
+	background:#00a32e;
+	color:#fff
+}
+.detail-price .detail-checkbox{
+	background:transparent;
+	padding:3px;
+	padding-left:45px;
+	border:none
+}
+.detail-checkbox .item-content{position:relative}
+.detail-checkbox.item-checkbox .checkbox{margin-top:-18px}
+.detail-checkbox .checkbox-icon{
+	width:20px;
+	height:20px
+}
+.detail-checkbox .checkbox-icon:before{
+	background:none;
+	border-radius:3px;
+	border:2px solid #7a7a7a
+}
+.detail-checkbox .checkbox-icon:after{
+	top:5px;
+	left:3px;
+	border-width:2px
+}
+.detail-checkbox .checkbox input:checked + .checkbox-icon:before{
+	background:#00a32e;
+	border-color:#00a32e
+}
+.detail-price .detail-coupon{
+	position:absolute;
+	top:0;
+	left:0
+}
+.detail-price .detail-coupon .item.item-input{background:#f5f5f5}
+.detail-price .detail-coupon .item.item-input .item-checkbox{height:34px}
+.detail-price .detail-coupon .item.item-input>input{border-bottom:1px solid #33cd5f}
+.detail-price .detail-coupon .item.item-input>div{
+	height:34px;
+	line-height:34px;
+	border-bottom:1px solid #33cd5f;
+	margin-right:16px
+}
+.detail-price .detail-coupon-success{
+	position:absolute;
+	top:0;
+	left:0;
+	background:#f5f5f5;
+	z-index:2;
+	height:43px;
+	line-height:43px;
+	padding-right:16px
+}
+.detail-price .detail-coupon-success .detail-checkbox{height:45px}
+.popup-primary-guest .popup{background:#eee}
+.popup-primary-guest .popup-head{display:none}
+.popup-primary-guest .popup-body input:focus{border-bottom:1px solid #62c17d}
+.popup-primary-guest .popup-buttons{
+	background:#e2e2e2;
+	padding:0;
+	display:block;
+	min-height:45px
+}
+.popup-primary-guest .popup-buttons .button{
+	float:right;
+	background:transparent
+}
+
+.detail-policies-main .list-policies{list-style:inherit}
+.detail-policies-main .list-policies li{margin-bottom:10px}
+
+.detail-booking{
+	fill:#00a32e;
+	stroke:#00a32e
+}
+.detail-booking .booking-note{
+	position:absolute;
+	width:144px;
+	top:-70px;
+	left:50%;
+	margin-left:-77px;
+	background:#999;
+	z-index:2
+}
+.detail-booking .booking-note:after{
+	content:"";
+    font-family:Ionicons;
+    position:absolute;
+    bottom:-13px;
+    color:#999;
+    left:50%;
+    margin-left:-6px;
+    font-size:32px;
+}
+.detail-booking svg{
+	width:50px;
+	height:50px
+}
+.detail-booking .button.button-icon{
+	width:40px;
+    min-height:40px;
+    line-height:40px;
+	font-size:20px;
+    position: absolute;
+    top:5px;
+    left:50%;
+    margin-left:-20px;
+	background:#fff;
+	border-radius:100%
+}
+.detail-booked{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:30%;
+	font-size:20px
+}
+.detail-booked i.icon{font-size:60px}

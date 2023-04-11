@@ -1,0 +1,58 @@
+﻿[
+	{
+		"icon":"icon-breakfast",
+		"name":"Free Breakfast"
+	},
+	{
+		"icon":"icon-person-disabled",
+		"name":"Wheel Chair Accessible"
+	},
+	{
+		"icon":"icon-tivi",
+		"name":"TV"
+	},
+	{
+		"icon":"ion-power",
+		"name":"Power Backup"
+	},
+	{
+		"icon":"icon-park",
+		"name":"Parking"
+	},
+	{
+		"icon":"icon-fridge",
+		"name":"Mini Fridge"
+	},
+	{
+		"icon":"icon-arrow-zoom",
+		"name":"Lift"
+	},
+	{
+		"icon":"icon-wifi",
+		"name":"Wifi"
+	},
+	{
+		"icon":"icon-safe-box",
+		"name":"In room Safe"
+	},
+	{
+		"icon":"icon-robot",
+		"name":"Geyser"
+	},
+	{
+		"icon":"icon-restaurent",
+		"name":"Dining Area"
+	},
+	{
+		"icon":"icon-sitting-room",
+		"name":"Conference Room"
+	},
+	{
+		"icon":"icon-card",
+		"name":"Card Payment"
+	},
+	{
+		"icon":"icon-house",
+		"name":"Banquet Hall"
+	}
+]

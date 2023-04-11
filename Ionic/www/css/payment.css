@@ -1,0 +1,63 @@
+﻿.icon-credit{color:#3e50b4}
+.icon-debit{color:#16a1ab}
+.icon-banking{color:#74a352}
+.payment-option .item.item-toggle{padding:10px 99px 10px 10px}
+.payment-option .item.item-toggle .icon{
+	display:inline-block;
+    background:#f1f6ed;
+    border-radius:100%;
+    font-size:20px;
+    width:32px;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    margin-right:10px;
+}
+.payment-option .item.item-toggle .toggle{top:19px}
+.payment-option .item.item-toggle .track{
+	float:left;
+    height:16px;
+    background:#b2b2b2;
+    border:none;
+	width:44px
+}
+.payment-option .item.item-toggle .handle{
+	width:22px;
+	height:22px;
+	top:2px;
+	left:5px;
+	background:#ececec
+}
+.payment-option .toggle input:checked + .track{background:#b2dfdb}
+.payment-option .toggle input:checked + .track .handle{
+	background:#009385;
+	-webkit-transform:translate3d(24px, 0, 0);
+    transform:translate3d(24px, 0, 0);
+}
+
+.payment-form-main .item.item-icon-right{
+	background:#ddd;
+	padding:10px;
+	padding-right:54px;
+	border-radius:5px
+}
+.payment-form-main .button-stable{
+	background:#cbcbcb;
+	border-radius:5px
+}
+.payment-form-main .insert-card {
+	border-radius:8px;
+	margin-bottom:10px!important
+}
+.payment-form-main .insert-card .item.item-input{
+	padding:6px 10px;
+	margin:0;
+	border-bottom:1px solid #f4f4f4
+}
+.payment-form-main .border-right-important{border-right:1px solid #f4f4f4!important}
+.payment-form-main .payment-expiry select{
+	background:#ddd;
+    height:20px;
+    color:#717171;
+    width:45px;
+}

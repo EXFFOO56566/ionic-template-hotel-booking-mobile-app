@@ -1,0 +1,22 @@
+﻿<ion-modal-view>
+<link href="css/sign.css" rel="stylesheet" type="text/css">
+<ion-header-bar class="bar-assertive">
+	<h1 class="title">SELECT COUNTRY CODE</h1>
+	<button class="button button-icon button-clear ion-ios-close-empty" ng-click="closeModalAreaCode()"></button>
+</ion-header-bar>
+<ion-content class="areacode-main">
+<div class="list no-padding no-margin">
+	<div class="item item-input no-margin relative">
+	<input type="text" placeholder="Search or Select country code" ng-model="search.name">
+	<i class="icon ion-ios-close assertive" ng-show="search.name" ng-click="search.name = ''"></i>
+	</div>
+</div>
+<div class="list">
+	<div class="item" ng-repeat="item in areacode | filter:search" ng-click="closeModalAreaCode()">
+		<img src="img/sign/areacode/{{item.name}}.png" class="float-left">
+		<span>{{item.name}}</span>
+		<div class="float-right">{{item.areacode}}</div>
+	</div>
+</div>
+</ion-content>
+</ion-modal-view>

@@ -1,0 +1,13 @@
+﻿<ion-view view-title="Forgot Password">
+<link href="css/sign.css" rel="stylesheet" type="text/css">
+<ion-content class="padding stable-bg" scroll="false">
+	<p class="stable">Enter the email address associated with your account & we shall send you a link to 'reset password'.</p>
+	<div class="list sign-form">
+		<label class="item item-input no-margin relative">
+			<input type="text" placeholder="Email" ng-model="user.email"/>
+			<i ng-show="error=='email'" class="icon icon-error assertive"></i>
+		</label>
+	</div>
+	<button class="button button-block button-assertive" ng-click="signIn()">SEND RESET LINK</button>
+</ion-content>
+</ion-view>

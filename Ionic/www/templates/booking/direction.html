@@ -1,0 +1,5 @@
+﻿<ion-view hide-nav-bar="true">
+<ion-content scroll="false">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2183316.077950538!2d-92.3391419175719!3d36.803962998427764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1465565932461" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</ion-content>
+</ion-view>

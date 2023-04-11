@@ -1,0 +1,55 @@
+﻿.side-menu-content{background:rgba(0,0,0,0.4);}
+.menu-open .menu-content .side-menu-content{z-index:11}
+
+.menu-top{
+	width:100%;
+	height:150px;
+	background-image:url(img/menu-bg.jpg)
+}
+.menu-top .absolute-footer{
+	font-size:25px;
+    color:#fff;
+    line-height:50px;
+}
+.menu-top .absolute-footer i{
+	font-size:50px;
+	color:#dcdddd;
+	background:#7b7c7d;
+	border-radius:100%
+}
+.menu-icon{
+	font-size:20px!important;
+	color:#ee6047
+}
+.bar-footer.no-padding .button{height:100%}
+.bar-footer.no-padding .button:first-child{border-right:1px solid #d7d8d9}
+
+.popup-share .popup{
+	width:300px;
+	background:#fafafa
+}
+.popup-share .popup-body .content{
+	display:-webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display:flex;   
+    flex-wrap:wrap;
+}
+.popup-share .popup-body .item-share{
+	width:93px;
+    text-align:center;
+    padding:10px;
+}
+.popup-share .popup-body .item-share img{
+	width:55px;
+	height:55px
+}
+.popup-share .popup-buttons{
+	min-height:35px;
+	border-top:1px solid #f4f4f4;
+	padding:0
+}
+.popup-share .popup-buttons .button{
+	background:transparent;
+	min-height:35px;
+	color:#008c56
+}

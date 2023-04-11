@@ -1,0 +1,5 @@
+﻿<div ng-controller="shareApp" class="width-100 content">
+<div class="item-share" ng-repeat="share in shares" ng-click="closePopupShare()">
+	<img class="margin-auto" src="img/menu/share/{{share.app}}.png">{{share.app}}
+</div>
+</div>

@@ -1,0 +1,13 @@
+﻿<ion-view view-title="Feedback">
+<ion-nav-bar class="bar-assertive">
+	<ion-nav-buttons side="left">
+	<button class="button button-icon button-clear ion-android-arrow-back" ui-sref="app.home"></button>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="right">
+	<button class="button button-icon button-clear icon-plane"></button>
+	</ion-nav-buttons>
+</ion-nav-bar>
+<ion-content scroll="false">
+	<textarea class="width-100 height-100 padding assertive" placeholder="Enter your feedback here"></textarea>
+</ion-content>
+</ion-view>

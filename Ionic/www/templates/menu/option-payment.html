@@ -1,0 +1,22 @@
+﻿<ion-view view-title="Payment Option">
+<link href="css/payment.css" rel="stylesheet" type="text/css">
+<ion-nav-bar class="bar-assertive">
+	<ion-nav-buttons side="left">
+	<button class="button button-icon button-clear ion-android-arrow-back" ui-sref="app.home"></button>
+	</ion-nav-buttons>
+</ion-nav-bar>
+<ion-content class="payment-option">
+<div class="list no-margin">
+	<ion-toggle toggle-class="toggle-payment-option" ng-model="paymentOption.credit" ng-init="paymentOption.credit=true">
+		<i class="icon icon-table icon-credit"></i>Credit Card
+	</ion-toggle>
+	<ion-toggle toggle-class="toggle-payment-option">
+		<i class="icon icon-table icon-debit"></i>Debit Card
+	</ion-toggle>
+	<ion-toggle toggle-class="toggle-calm">
+		<i class="icon icon-price-dola icon-banking"></i>Net Banking
+	</ion-toggle>
+</div>
+<div class="padding stable">Credit Card, Debit Card, Net Banking and other payment options are available while booking the hotel.</div>
+</ion-content>
+</ion-view>

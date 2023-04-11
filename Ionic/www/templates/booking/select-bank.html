@@ -1,0 +1,10 @@
+﻿<ion-modal-view class="modal-select-bank">
+<link href="css/booking.css" rel="stylesheet" type="text/css">
+<ion-content scroll="false" ng-init="selectBank = 1">
+	<div class="list text-center">
+	<ion-radio ng-model="selectBank" ng-value="1" ng-click="closeModalSelectBank()">Select your bank</ion-radio>
+	<ion-radio ng-click="closeModalSelectBank()">AXIS Bank NetBanking</ion-radio>
+	<ion-radio ng-click="closeModalSelectBank()">Punjab And Sind Bank</ion-radio>
+	</div>
+</ion-content>
+</ion-modal-view>

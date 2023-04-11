@@ -1,0 +1,12 @@
+﻿<ion-modal-view class="modal-select-time">
+<link href="css/booking.css" rel="stylesheet" type="text/css">
+<ion-content scroll="false">
+	<div class="list text-center">
+		<div class="assertive padding">SELECT A TIME RANGE</div>
+		<div class="item" ng-click="closeModalSelectTime()">03 PM - 06 PM</div>
+		<div class="item" ng-click="closeModalSelectTime()">06 PM - 09 PM</div>
+		<div class="item" ng-click="closeModalSelectTime()">09 PM - 12 PM</div>
+		<div class="item" ng-click="closeModalSelectTime()">After Midnight</div>
+	</div>
+</ion-content>
+</ion-modal-view>

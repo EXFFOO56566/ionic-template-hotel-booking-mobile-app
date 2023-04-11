@@ -1,0 +1,35 @@
+﻿[
+	{
+	"name":"UPCOMING",
+	"list":
+		[
+			{
+				"id":1,
+				"price":389.99,
+				"category":"Deluxe Room",
+				"time":"21 May - 22 May",
+				"status":"Pending"
+			},
+			{
+				"id":2,
+				"price":389.99,
+				"category":"Deluxe Room",
+				"time":"16 May - 20 May",
+				"status":"Paid"
+			}
+		]
+	},
+	{
+	"name":"PREVIOUS",
+	"list":
+		[
+			{
+				"id":1,
+				"price":389.99,
+				"category":"Deluxe Room",
+				"time":"11 May - 12 May",
+				"status":"Canceled"
+			}
+		]
+	}
+]

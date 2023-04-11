@@ -1,0 +1,111 @@
+@font-face {
+font-family: "vspfonts";
+src: url("vspfonts.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+.icon-anchor:before,
+.icon-arrow-swap:before,
+.icon-arrow-zoom:before,
+.icon-bag:before,
+.icon-bed:before,
+.icon-bookmark:before,
+.icon-share:before,
+.icon-person:before,
+.icon-calendar:before,
+.icon-call:before,
+.icon-chart-down:before,
+.icon-chart-up:before,
+.icon-calendar-2:before,
+.icon-chat:before,
+.icon-circle-fill:before,
+.icon-circle-five:before,
+.icon-circle-width:before,
+.icon-clock:before,
+.icon-direction:before,
+.icon-facebook:before,
+.icon-filter:before,
+.icon-fridge:before,
+.icon-house:before,
+.icon-king:before,
+.icon-person-border:before,
+.icon-person-disabled:before,
+.icon-pin:before,
+.icon-price-dola:before,
+.icon-question:before,
+.icon-refresher:before,
+.icon-restaurent:before,
+.icon-robot:before,
+.icon-safe-box:before,
+.icon-sitting-room:before,
+.icon-table:before,
+.icon-park:before,
+.icon-tivi:before,
+.icon-upload:before,
+.icon-wallet:before,
+.icon-warning-electricity:before,
+.icon-wifi:before,
+.icon-plane:before,
+.icon-error:before,
+.icon-card:before,
+.icon-breakfast:before,
+.icon-hand:before
+{
+display: inline-block;
+font-family: "vspfonts";
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+text-rendering: auto;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.icon-anchor:before{content: '\e000'}
+.icon-arrow-swap:before{content: '\e001'}
+.icon-arrow-zoom:before{content: '\e002'}
+.icon-bag:before{content: '\e003'}
+.icon-bed:before{content: '\e004'}
+.icon-bookmark:before{content: '\e005'}
+.icon-share:before{content: '\e006'}
+.icon-person:before{content: '\e007'}
+.icon-calendar:before{content: '\e008'}
+.icon-call:before{content: '\e009'}
+.icon-chart-down:before{content: '\e00a'}
+.icon-chart-up:before{content: '\e00b'}
+.icon-calendar-2:before{content: '\e00c'}
+.icon-chat:before{content: '\e00d'}
+.icon-circle-fill:before{content: '\e00e'}
+.icon-circle-five:before{content: '\e00f'}
+.icon-circle-width:before{content: '\e010'}
+.icon-clock:before{content: '\e011'}
+.icon-direction:before{content: '\e012'}
+.icon-facebook:before{content: '\e013'}
+.icon-filter:before{content: '\e014'}
+.icon-fridge:before{content: '\e015'}
+.icon-house:before{content: '\e016'}
+.icon-king:before{content: '\e017'}
+.icon-person-border:before{content: '\e018'}
+.icon-person-disabled:before{content: '\e019'}
+.icon-pin:before{content: '\e01a'}
+.icon-price-dola:before{content: '\e01b'}
+.icon-question:before{content: '\e01c'}
+.icon-refresher:before{content: '\e01d'}
+.icon-restaurent:before{content: '\e01e'}
+.icon-robot:before{content: '\e01f'}
+.icon-safe-box:before{content: '\e020'}
+.icon-sitting-room:before{content: '\e021'}
+.icon-table:before{content: '\e022'}
+.icon-park:before{content: '\e023'}
+.icon-tivi:before{content: '\e024'}
+.icon-upload:before{content: '\e025'}
+.icon-wallet:before{content: '\e026'}
+.icon-warning-electricity:before{content: '\e027'}
+.icon-wifi:before{content: '\e028'}
+.icon-plane:before{content: '\e029'}
+.icon-error:before{content: '\e02a'}
+.icon-card:before{content: '\e02b'}
+.icon-breakfast:before{content: '\e02c'}
+.icon-hand:before{content: '\e02d'}

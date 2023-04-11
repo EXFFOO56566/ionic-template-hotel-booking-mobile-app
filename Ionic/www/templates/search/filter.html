@@ -1,0 +1,153 @@
+﻿<ion-view hide-nav-bar="true">
+<link href="css/search.css" rel="stylesheet" type="text/css">
+<ion-tabs class="search-filter">
+<ion-tab title="PRICE & STAY">
+	<ion-content scroll="false" class="padding no-padding-bottom search-filter-main bg-full-w">
+	<ion-scroll direction="y" class="height-100">
+	<div class="card no-margin-top">
+		<div class="item item-text-wrap">
+			<span>PRICE</span>
+			<div class="float-right">${{rangeSlider.min}} - ${{rangeSlider.max}}</div>
+			<rzslider rz-slider-model="rangeSlider.min" rz-slider-high="rangeSlider.max" rz-slider-options="rangeSlider.options"></rzslider>
+		</div>
+		<div class="item item-divider">
+			<ion-checkbox class="search-checkbox">Option to Pay at Hotel</ion-checkbox>
+		</div>
+	</div>
+	<div class="card no-margin-top search-filter-number">
+		<div class="row padding item item-text-wrap">
+			<div class="col text-center border-right">
+				<div class="float-left icon ion-android-remove" ng-click="minusGuest()"></div>
+				<span>{{filterNumber.guest}} Guest</span>
+				<div class="float-right icon ion-android-add" ng-click="plusGuest()"></div>
+			</div>
+			<div class="col text-center">
+				<div class="float-left icon ion-android-remove" ng-click="minusRoom()"></div>
+				<span>{{filterNumber.room}} Room</span>
+				<div class="float-right icon ion-android-add" ng-click="plusRoom()"></div>
+			</div>
+		</div>
+	</div>
+	<div class="card no-margin">
+		<div class="item item-text-wrap">
+		<div class="padding-vertical">COLLECTIONS</div>
+			<ion-checkbox class="search-checkbox">Localite</ion-checkbox>
+			<ion-checkbox class="search-checkbox">Couple</ion-checkbox>
+			<ion-checkbox class="search-checkbox">Leisure</ion-checkbox>
+		</div>
+	</div>
+	</ion-scroll>
+	</ion-content>
+	<ion-footer-bar class="bar-assertive search-filter-footer">
+		<button class="button button-reset no-border">RESET</button>
+		<button class="button no-border icon-right ion-ios-checkmark" ui-sref="app.search">
+			<span class="margin-right">APPLY FILTER</span>
+		</button>
+	</ion-footer-bar>
+</ion-tab>
+<ion-tab title="CATEGORIES">
+	<ion-content scroll="false" class="padding no-padding-bottom search-filter-main bg-full-w">
+	<ion-scroll direction="y" class="height-100">
+	<div class="card no-margin-top">
+		<div class="item item-text-wrap">
+			<div class="dark padding-vertical">CATEGORIES</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Budget</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Premium</ion-checkbox>
+			</div>
+			</div>
+			<ion-checkbox class="search-checkbox">Elite</ion-checkbox>
+		</div>
+		<div class="item item-divider">
+			<div class="stable padding-vertical">Accommodation Type</div>
+			<ion-checkbox class="search-checkbox">Hotel</ion-checkbox>
+		</div>
+	</div>
+	<div class="card no-margin-top search-filter-amenities">
+		<div class="item item-text-wrap">
+			<div class="dark">AMENITIES</div>
+		</div>
+		<div class="item item-divider">
+			<div class="stable">AC, TV, Free Wifi and Complementary Breakfast are provided in MY HOTEL</div>
+		</div>
+		<div class="item item-text-wrap">
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Banquet Hall</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">CCTV</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Card Payment</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Conference Room</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Dining Area</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Geyser</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Gym</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Heater</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">In room Safe</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Laundry</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Lift</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Mini Fridge</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Faking</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Pool</ion-checkbox>
+			</div>
+			</div>
+			<div class="row row-no-padding">
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Power Backup</ion-checkbox>
+			</div>
+			<div class="col col-center">
+				<ion-checkbox class="search-checkbox">Wheel Chair Accessible</ion-checkbox>
+			</div>
+			</div>
+		</div>
+	</div>
+	</ion-scroll>
+	</ion-content>
+	<ion-footer-bar class="bar-assertive search-filter-footer">
+		<button class="button button-reset no-border">RESET</button>
+		<button class="button no-border icon-right ion-ios-checkmark" ui-sref="app.search">
+			<span class="margin-right">APPLY FILTER</span>
+		</button>
+	</ion-footer-bar>
+</ion-tab>
+</ion-tabs>
+</ion-view>
